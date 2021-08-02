@@ -3,4 +3,4 @@ project(linux_programming C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(linux_programming main.c)
+add_executable(linux_programming main.c iofile.h iofile.c)
