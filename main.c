@@ -3,6 +3,6 @@
 
 int main() {
     printf("Hello, World!\n");
-    check_opened_file();
+    write_file();
     return 0;
 }
