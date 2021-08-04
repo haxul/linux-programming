@@ -7,5 +7,6 @@
 #define BUF_LEN 1024
 
 int main() {
-    return nonblock();
+    file_open();
+    return 0;
 }

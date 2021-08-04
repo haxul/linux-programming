@@ -10,6 +10,17 @@
 #define BUF_LEN 1024
 char *url = "/home/haxul/Development/workspaces/c/linux_programming/data.txt";
 
+void file_open() {
+
+    FILE *file = fopen(url, "r");
+    if (!file ) {
+        perror("wrong");
+        return;
+    }
+    fclose(file);
+}
+
+
 int nonblock() {
 
     struct timeval tv;
